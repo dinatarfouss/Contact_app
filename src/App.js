@@ -46,8 +46,8 @@ function App(){
             <table className="table table-bordered mt-5 bg-danger text-light">
                 <tr>
                     <th>Full Name</th>
-                    <th>Age</th>
-                    <th>Gender</th>
+                    <th>Numero</th>
+                    <th>Ville</th>
                     <th className="text-center th-Spcial" colSpan="2">Actions</th>
                 </tr>
                 {searching === true ?  infos.map( info => searchName === info.gender && <tr>
